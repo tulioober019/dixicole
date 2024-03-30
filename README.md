@@ -11,3 +11,5 @@ A súa implantación vai promover varias ventaxas ao comunidade educativa (pais,
 - Ofrecerá unha xestión dos recursos de xeito centralizado os recursos necesarios para unha educación dixital.
 - Ofrecerá moita seguridade posto que no caso dos alumnos menores de idade, podrán gozar de servizos de comunicación necesarios como un correo electrónico destinado a dito uso sen a necesidade de contratar provedores externos como Google.
 - Todos os docentes dos centros educativos non terán que preocuparse de crear aulas virtuais xa que poden xestionar os seus clases na plataforma.
+
+Este proxecto responde a unha demanda no contexto socio-económico actual xa que facilitará a familias, docentes e outros o acceso libre ao plataforma.
