@@ -1,4 +1,4 @@
-# proxecto ASIR (O nome e provisional).
+# Dixicole
 
 ## 1. Contexto do proxecto.
 
