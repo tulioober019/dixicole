@@ -15,8 +15,5 @@ A súa implantación vai promover varias ventaxas ao comunidade educativa (pais,
 Este proxecto responde a unha demanda no contexto socio-económico actual xa que facilitará a familias, docentes e outros o acceso libre ao plataforma.
 
 | **Autor** | Marco Tulio Fernandez Bernier |
-|-----------|-------------------------------|
 | **Data inicio** | 27/03/2024 |
-|-----------|-------------------------------|
-| **Data fin** | 26/05/2024 |
-|-----------|-------------------------------|
+| **Data fin (provisional) ** | 26/05/2024 |
