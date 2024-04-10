@@ -13,3 +13,5 @@ A súa implantación vai promover varias ventaxas ao comunidade educativa (pais,
 - Todos os docentes dos centros educativos non terán que preocuparse de crear aulas virtuais xa que poden xestionar os seus clases na plataforma.
 
 Este proxecto responde a unha demanda no contexto socio-económico actual xa que facilitará a familias, docentes e outros o acceso libre ao plataforma.
+
+|| Datos do proxecto ||
