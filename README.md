@@ -14,6 +14,7 @@ A súa implantación vai promover varias ventaxas ao comunidade educativa (pais,
 
 Este proxecto responde a unha demanda no contexto socio-económico actual xa que facilitará a familias, docentes e outros o acceso libre ao plataforma.
 
+## 1.1.- Datos do proxecto
 <table>
   <tr>
     <th>Autor </th>
