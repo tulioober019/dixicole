@@ -32,3 +32,5 @@ Este proxecto responde a unha demanda no contexto socio-económico actual xa que
     <td>Dixicole</td>
   </tr>
 </table>
+
+## 1.2.- Temporalización de fases.
