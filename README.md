@@ -26,4 +26,8 @@ Este proxecto responde a unha demanda no contexto socio-económico actual xa que
     <th>Data fin (provisional) </th>
     <td>Luns, 27 de Maio, 2024</td>
   </tr>
+ <tr>
+    <th>Título</th>
+    <td>Dixicole</td>
+  </tr>
 </table>
