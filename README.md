@@ -14,9 +14,16 @@ A súa implantación vai promover varias ventaxas ao comunidade educativa (pais,
 
 Este proxecto responde a unha demanda no contexto socio-económico actual xa que facilitará a familias, docentes e outros o acceso libre ao plataforma.
 
-
-| **Autor** | Marco Tulio Fernández Bernier |  
-|--+--|
-| **Data inicio** | Mércores, 27 de marzo do 2024 | 
-| **Data fin** | Luns, 27 de maio do 2024 |
-| **Título** | Dixicole | 
+<table>
+  <tr>
+    <th>Autor </th>
+    <td>Marco Tulio Fernández Bernier</td>
+  </tr>
+    <th>Data inicio</th>
+    <td>Mércores, 27 de Marzo, 2024</td>
+  </tr>
+    <tr>
+    <th>Data fin (provisional) </th>
+    <td>Luns, 27 de Maio, 2024</td>
+  </tr>
+</table>
