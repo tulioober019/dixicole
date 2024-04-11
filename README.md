@@ -22,7 +22,7 @@ Este proxecto responde a unha demanda no contexto socio-económico actual xa que
     <th>Data inicio</th>
     <td>Mércores, 27 de Marzo, 2024</td>
   </tr>
-    <tr>
+  <tr>
     <th>Data fin (provisional) </th>
     <td>Luns, 27 de Maio, 2024</td>
   </tr>
