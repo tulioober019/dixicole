@@ -16,7 +16,7 @@ Este proxecto responde a unha demanda no contexto socio-económico actual xa que
 
 
 | **Autor** | Marco Tulio Fernández Bernier |  
-|---|---|
+|--+--|
 | **Data inicio** | Mércores, 27 de marzo do 2024 | 
 | **Data fin** | Luns, 27 de maio do 2024 |
 | **Título** | Dixicole | 
