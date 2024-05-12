@@ -18,7 +18,8 @@ Este proxecto responde a unha demanda no contexto socio-económico actual xa que
 <table>
   <tr>
     <th>Autor </th>
-    <td>Marco Tulio Fernández Bernier</td>
+    <td>Marco Tulio Fernández Bernier
+tuliobernier@gmail.com</td>
   </tr>
     <th>Data inicio</th>
     <td>Mércores, 27 de Marzo, 2024</td>
