@@ -1,0 +1,74 @@
+.form-modal {
+    display: none;
+    width: 50%;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 0.5%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    z-index: 10;
+    padding-top: 0;
+    background-color: white;
+}
+
+.form-modal h2 {
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20pt;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.form-modal-row {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 1fr;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+}
+
+.form-modal-row label {
+    display: inline;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 1;
+    background-color: white;
+}
+
+.form-modal-row input {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row: 1;
+    display: inline;
+}
+
+.form-modal-row textarea {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row: 1;
+    display: inline;
+    height: 100px;
+}
+
+.form-modal-row .auth-error {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    color: red;
+    display: inline;
+}
+
+.form-modal-row button {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row: 1;
+    display: inline;
+}
+
+.form-modal * {
+    font-size: 14pt;
+}
+

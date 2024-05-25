@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    /*font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;*/
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*Estilos do header*/
+
+header {
+    display: flex;
+    background-color: #0066ff;
+    color: white;
+}
+
+header .header-left {
+    display: inline;
+    width: 85%;
+}
+
+header .header-left * {
+    margin-left: 24px;
+}
+
+header .header-left h1 {
+    font-size: 32pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header .header-left p {
+    margin-top: 0;
+    font-style: italic;
+    font-size: 18pt;
+}
+
+header .header-right {
+    display: inline;
+    width: 14%;
+    position: relative;
+}
+
+header .header-right button {
+    position: absolute;
+    bottom: auto;
+    top:30%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4%;
+    font-size: 14pt;
+}
+
+header .header-right button:hover {
+    background-color: lightgray;
+}
+
+header .header-right #user-logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 20%;
+    left: 40%;
+    background-color: white;
+    padding: 5px;
+}
+
+/*Navbar*/
+nav {
+    background-color: #00aaff;
+    border: 1px solid #00aaff;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 60px;
+}
+
+nav .navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav .navbar li {
+    display: inline;
+    width: 100px;
+    height: 56px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+nav .navbar:first-child {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+nav .navbar:last-child {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+nav .navbar li:hover {
+    background-color: aqua;
+}
+
+nav .navbar li a {
+    font-size: 16pt;
+}
+
+/* Seccións (privado) */
+.seccion {
+    width: 90%;
+    padding-left: 30px;
+    position: relative;
+}
+
+.seccion .apartado {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.seccion .apartado h1 {
+    display: inline;
+    width: 90%;
+    color: blue;
+    font-size: 18pt;
+}
+
+.seccion .apartado img {
+    width: 40px;
+    height: 40px;
+}
+
+.seccion .apartado .title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid blue;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.seccion .apartado .title h1 {
+    display: inline;
+    width: 90%;
+    color: blue;
+    font-size: 18pt;
+}
+
+.seccion .apartado .title img {
+    width: 40px;
+    height: 40px;
+}
+
+.seccion .apartado .contido {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.contido .entrada {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.contido .entrada img {
+    margin-right: 20px;
+}
+
+.contido .entrada p {
+    color: black;
+    font-size: 18pt;
+    margin: 0;
+    height:auto;
+}
+
+.seccion .title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid blue;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.seccion .title h1 {
+    display: inline;
+    width: 90%;
+    color: blue;
+    font-size: 24pt;
+}
+
+.seccion .title img {
+    width: 60px;
+    height: 60px;
+}
+
+.seccion ul {
+    list-style: none;
+    width: 250px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    display: none;
+    z-index: 10;
+}
+
+.seccion#menu-curso {
+    top: 60px;
+}
+
+.seccion#menu-topico {
+    top: 40px;
+}
+
+
+.seccion ul li {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-size: 14pt;
+    background-color: aqua;
+}
+
+.seccion ul li:hover {
+    background-color: aquamarine;
+}
+
+.seccion .entrega table {
+    border-collapse: collapse;
+}
+
+.seccion .entrega table tr * {
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 14pt;
+    border-bottom: 1px solid black;
+}
+
+.seccion .entrega table tr.even * {
+    background-color: lightgray;
+}
+
+.seccion .entrega table tr.odd * {
+    background-color: white;
+}
+
+.seccion .estado table {
+    border-collapse: collapse;
+}
+
+.seccion .estado table tr * {
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 14pt;
+    border-bottom: 1px solid black;
+}
+
+.seccion .estado table tr.even * {
+    background-color: lightgray;
+}
+
+.seccion .estado table tr.odd * {
+    background-color: white;
+}
+
+.seccion .entregar {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion .entregar button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: lightgrey;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+    display: inline;
+    border: none;
+}
+
+
+/* Estes estilos só aplícanse ao apartado de correo electrónico*/
+
+.mbox {
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+.mbox .mbox-list {
+    width: 29%;
+    display: inline;
+    margin-right: 1%;
+}
+
+.mbox .mbox-list .mail-listing:hover {
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+
+.mbox .mbox-list .even {
+    background-color: skyblue;
+    border: 1px solid skyblue;
+}
+
+.mbox .mbox-list .odd {
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+}
+
+.mbox .mbox-list .mail-listing .mail-listing-top {
+    display: flex;
+}
+
+.mbox .mbox-list .mail-listing .mail-listing-top h3 {
+    width: 80%;
+    display: inline-flex;
+    padding-left: 5px;
+}
+
+.mbox .mbox-list .mail-listing .mail-listing-top p {
+    float: right;
+    display: inline-flex;
+}
+
+.mbox .mbox-view .mail-content ul {
+    list-style: none;
+}
+
+.mbox .mbox-list .mail-listing .mail-listing-bottom {
+    padding-left: 5px;
+}
+
+/*.mbox .mbox-list .mail-listing .mail-listing-subject {
+    width: 100%;
+}*/
+
+.mbox .mbox-view {
+    width: 69%;
+    display: inline;
+}
+
+.mbox .mbox-view .mail-content {
+    margin-bottom: 5px;
+    display: none;
+}
+
+.mbox .mbox-view .mail-content * {
+    padding-left: 5px;
+}
+
+.arquivos {
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.arquivos .arquivo-view {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 5px;
+}
+
+.arquivos .arquivo-view .elemento {
+    display: inline-grid;
+    width: 210px;
+    height: auto;
+}
+
+.arquivos .arquivo-view .elemento img {
+    width: 200px;
+    height: 200px;
+}
+
+.arquivos .arquivo-view .elemento p {
+    font-size: 12pt;
+}
