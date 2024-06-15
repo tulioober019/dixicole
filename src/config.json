@@ -1,0 +1,22 @@
+{
+    "db": {
+        "db_username": "dixicole",
+        "db_password": "Abc123.,",
+        "db_database": "dixicole",
+        "db_host": "172.16.40.10",
+        "db_port": 3306
+    },
+    "imap": {
+        "imap_host": "mail.dixicole.gal",
+        "imap_port": 143
+    },
+    "smtp": {
+        "smtp_host": "mail.dixicole.gal",
+        "smtp_port": 25
+    },
+    "ftp": {
+        "ftp_host": "172.16.20.10",
+        "ftp_connect_port": 21,
+        "ftp_passive_mode": true
+    }
+}

@@ -1,0 +1,67 @@
+#
+# These groups are read by MariaDB server.
+# Use it for options that only the server (but not clients) should see
+
+# this is read by the standalone daemon and embedded servers
+[server]
+
+# this is only for the mysqld standalone daemon
+[mysqld]
+
+#
+# * Basic Settings
+#
+# 1.- EL SERVIZO MYSQL SE CORRERÁ BAJO EL USUARIO DEL SISTEMA mysql.
+user                    = mysql
+
+# 2.- LA RUTA DEL FICHEIRO mysqld.pid
+pid-file                = /run/mysqld/mysqld.pid
+
+# 3.- O DIRECTORIO BASE DE mysql (onde está os exectuables)
+basedir                 = /usr
+
+# 4.- O DIRECTORIO DE DATOS ESTARÁ EN /var/lib/mysql
+datadir                 = /var/lib/mysql
+
+# 5.- O DIRECTORIO TEMPORAL ESTARÁ EN /tmp.
+tmpdir                  = /tmp
+
+# 6.- O SERVIDOR ESCOITARA PETICIÓNS PROCEDENTES DE OUTROS CLIENTES NA REDE
+bind-address            = 0.0.0.0
+
+# 7.- O LOG XERAL DE MARIADB.
+general_log_file       = /var/log/mysql/mysql.log
+general_log            = 1
+
+# 8.- O LOG DE ERROS DE MARIADB.
+log_error = /var/log/mysql/error.log
+
+# 9.- O LOG DE CONSULTAS LENTAS. SE CONSIDERARÁ CONSULTA LENTA A AQUELA QUE 
+#     SUPERE OS 5 SEGUNDOS.
+slow_query_log_file    = /var/log/mysql/mariadb-slow.log
+long_query_time        = 5
+
+# 10.- O ID DO SERVIDOR NO CASO QUE DECIDAMOS REALIZAR UN ESCENARIO 
+#      DE REPLICACIÓN DE DATOS.
+server-id              = 1
+
+# 10.- O LOG BINARIO.
+log_bin                = /var/log/mysql/mysql-bin.log
+expire_logs_days        = 10
+
+# 11.- CHARSETS.
+character-set-server  = utf8mb4
+collation-server      = utf8mb4_general_ci
+
+# 12.- CONFIGURACIÓNS SSL (AUN PENDENTE DE XESTIÓN)
+#ssl-ca = /etc/mysql/cacert.pem
+#ssl-cert = /etc/mysql/server-cert.pem
+#ssl-key = /etc/mysql/server-key.pem
+#require-secure-transport = on
+
+
+[embedded]
+
+[mariadb]
+
+[mariadb-10.6]
