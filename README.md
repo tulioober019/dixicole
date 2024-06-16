@@ -1,4 +1,5 @@
-# Dixicole
+![image](https://github.com/tulioober019/dixicole/assets/134515143/058f2d58-2f0d-412b-8aa3-f0956481ca00)
+
 
 ## 1. Contexto do proxecto.
 
@@ -13,25 +14,3 @@ A súa implantación vai promover varias ventaxas ao comunidade educativa (pais,
 - Todos os docentes dos centros educativos non terán que preocuparse de crear aulas virtuais xa que poden xestionar os seus clases na plataforma.
 
 Este proxecto responde a unha demanda no contexto socio-económico actual xa que facilitará a familias, docentes e outros o acceso libre ao plataforma.
-
-## 1.1.- Datos do proxecto
-<table>
-  <tr>
-    <th>Autor </th>
-    <td><p>Marco Tulio Fernández Bernier</p>
-<p>tuliobernier@gmail.com</p></td>
-  </tr>
-    <th>Data inicio</th>
-    <td>Mércores, 27 de Marzo, 2024</td>
-  </tr>
-  <tr>
-    <th>Data fin (provisional) </th>
-    <td>Luns, 27 de Maio, 2024</td>
-  </tr>
- <tr>
-    <th>Título</th>
-    <td>Dixicole</td>
-  </tr>
-</table>
-
-## 1.2.- Temporalización de fases.
